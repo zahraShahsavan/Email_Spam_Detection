@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements an Email Spam Classification system using a Naive Bayes machine learning model. It processes an email dataset to train a spam classifier and provides functionalities to predict whether a given email is spam or not.
+This project implements an Email Spam Classification system using a Naive Bayes machine learning model. It processes an email dataset to train a spam classifier and provides functionalities to process the email text with nltk and predict whether a given email is spam or not.
 
 ---
 

@@ -14,6 +14,7 @@ This project implements an Email Spam Classification system using a Naive Bayes 
 - **Evaluation**: Outputs a confusion matrix, classification report, and F1 score to evaluate performance.
 - **Prediction**: Predicts if a new email is spam or not using the trained model.
 - **Serialization**: Saves the trained model for reuse without retraining.
+- **Finding domains**: Find the domains using K-means algorithms.
 
 ---
 
@@ -72,6 +73,8 @@ The dataset is automatically downloaded from Kaggle using `kagglehub`:
   - `Email No.`: Identifier for emails.
   - `Prediction`: Label (1 for spam, 0 for not spam).
   - `3000 columns`: words that are used in the 5172 emails.
+  - `Domains`: domains that extracted by K-means 
+
 
 ---
 
